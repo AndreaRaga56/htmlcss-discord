@@ -23,18 +23,18 @@
     border: 1px dashed black; */
  }
 
- .hdiv.A {
+ .hdiv-A {
      width: 15%;
      text-align: start;
  }
 
- .hdiv.B {
+ .hdiv-B {
      width: 70%;
      text-align: center;
      color: white;
  }
 
- .hdiv.C {
+ .hdiv-C {
      width: 15%;
      text-align: end;
  }
@@ -59,6 +59,12 @@
  .bottone.nero {
      background-color: black;
      color: white;
+ }
+
+ .bottone.azzurro{
+    background-color: #7289DA;
+    color: white;
+    margin-top: 40px;
  }
 
  .big-conteiner {
@@ -119,7 +125,6 @@
  }
 
  .item {
-     border: 2px dashed black;
      min-height: 250px;
  }
 
@@ -142,7 +147,6 @@
  }
 
  .item.pink {
-     background-color: #FFC0CB;
      width: 40%;
  }
 
@@ -150,12 +154,31 @@
     margin-top: 15px;
  }
 
- .item.green {
-     background-color: green;
-     min-height: 500px;
-     flex-grow: 1;
+ .ruota{
+    transform: scaleY(-1)
  }
 
+ .item.green {
+     min-height: 500px;
+     text-align: center;
+ }
+
+ .coniglio{
+    min-height: 280px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(../img/item4-big.svg);
+ }
+
+ .stelline{
+    margin-top: 10px;
+    min-height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(../img/stars.svg);
+ }
 
  .dark-grey-bg-flex {
      background-color: #23272A;
@@ -185,6 +208,12 @@
      min-height: 300px;
      flex-grow: 2;
      border: 2px dashed white;
+ }
+
+ .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
  }
 
  hr {
