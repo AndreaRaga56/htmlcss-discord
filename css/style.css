@@ -43,11 +43,12 @@
      list-style: none;
      display: flex;
      justify-content: space-evenly;
+     flex-wrap: wrap;
  }
 
  .bottone {
      display: inline-block;
-     padding: 8px;
+     padding: 0.4rem 0.8rem;
      border-radius: 20px;
  }
 
@@ -61,19 +62,20 @@
      color: white;
  }
 
- .bottone.azzurro{
-    background-color: #7289DA;
-    color: white;
-    margin-top: 40px;
+ .bottone.azzurro {
+     background-color: #7289DA;
+     color: white;
+     margin: 40px 0px;
  }
 
  .big-conteiner {
-     width: 90%;
+     width: 80%;
      max-width: 1100px;
      margin: 0 auto;
      display: flex;
      justify-content: center;
      align-items: center;
+
  }
 
 
@@ -90,14 +92,20 @@
      align-items: center;
  }
 
+ .centra {
+     text-align: center;
+ }
+
+
  h2 {
      text-align: center;
  }
 
  .blu-div {
-     min-height: 300px;
+     min-height: 500px;
      display: flex;
-     align-items: center;
+     align-items: left;
+     background-position: center;
      background-image: url(../img/jumbo.png);
      background-size: cover;
      background-repeat: no-repeat;
@@ -105,7 +113,7 @@
 
  .white-bg-flex {
      background-color: white;
-     min-height: 300px;
+     min-height: 500px;
      display: flex;
      align-items: center;
  }
@@ -125,7 +133,7 @@
  }
 
  .item {
-     min-height: 250px;
+     min-height: 380px;
  }
 
  .item.blu {
@@ -134,50 +142,53 @@
      width: 60%;
  }
 
- .item.blu.Rana{
-    background-image: url(../img/item1.svg);
+ .item.blu.Rana {
+     background-image: url(../img/item1.svg);
  }
 
- .item.blu.Mago{
-    background-image: url(../img/item2.svg);
+ .item.blu.Mago {
+     background-image: url(../img/item2.svg);
  }
 
- .item.blu.Genio{
-    background-image: url(../img/item3.svg);
+ .item.blu.Genio {
+     background-image: url(../img/item3.svg);
+     margin-right: 15px;
+
  }
 
  .item.pink {
      width: 40%;
  }
 
- p{
-    margin-top: 15px;
+ .mt {
+     margin-top: 15px;
  }
 
- .ruota{
-    transform: scaleY(-1)
+ .ruota {
+     transform: scaleY(-1)
  }
 
  .item.green {
      min-height: 500px;
      text-align: center;
+     width: 100%;
  }
 
- .coniglio{
-    min-height: 280px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-image: url(../img/item4-big.svg);
+ .coniglio {
+     min-height: 550px;
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+     background-image: url(../img/item4-big.svg);
  }
 
- .stelline{
-    margin-top: 10px;
-    min-height: 30px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-image: url(../img/stars.svg);
+ .stelline {
+     margin-top: 10px;
+     min-height: 30px;
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+     background-image: url(../img/stars.svg);
  }
 
  .dark-grey-bg-flex {
@@ -198,9 +209,10 @@
  }
 
  .item.coral {
-     background-color: #F08080;
+    color: white;
      min-height: 300px;
      flex-grow: 3;
+     padding: 10px;
  }
 
  .item.verde-strano {
@@ -210,10 +222,10 @@
      border: 2px dashed white;
  }
 
- .social{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+ .social {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
  }
 
  hr {
@@ -232,4 +244,25 @@
      min-height: 1rem;
      padding: 3px;
      background-color: #FFB6C1;
+ }
+
+ .azz {
+     color: #7289DA;
+     text-align: left;
+ }
+
+ .lingua {
+     display: flex;
+     align-items: centre;
+     gap: 10px;
+
+ }
+
+ .lingua img {
+     width: 20px;
+ }
+
+ .social {
+     gap: 8px;
+     justify-content: flex-start;
  }

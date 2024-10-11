@@ -4,11 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Discord</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
+
+    <!-- Intestazione con logo, link e accedi -->
     <header>
         <div class="big-conteiner">
             <div class="hdiv-A"><img src="./img/logo.svg" alt="logo"></div>
@@ -22,91 +25,100 @@
                 </ul>
             </div>
             <div class="hdiv-C">
-                <span class="bottone bianco">Accedi</span>
+                <a class="bottone bianco" href="">Accedi</a>
             </div>
         </div>
     </header>
 
     <main>
+        <!-- Titolo grande e breve descrizione con il background -->
         <div class="blu-div">
             <div class="lil-container white">
-                <h1> Il tuo posto per parlare</h1>
-                <h2> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, explicabo nulla! Fuga nihil iste fugit eveniet, tenetur voluptate enim odio.</h2>
+                <h1 class="centra"> Il tuo posto per parlare</h1>
+                <h2> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea autem possimus expedita fugit voluptate recusandae iure commodi reprehenderit quam consectetur!</h2>
                 <span class="bottone bianco"> &DownArrow; Scarica per Mac</span> <span class="bottone nero"> Apri Discord nel tuo browser</span>
                 
             </div>
         </div>
 
+        <!-- Primo paragrafo con l'immagine con la rana -->
         <div class="white-bg-flex">
             <div class="big-conteiner">
                 <div class="item blu Rana"></div>
                 <div class="item pink">
                     <h1>Un luogo a invito con tutto la spazio necessario per parlare</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quod omnis, nesciunt dolore, ullam nobis labore.</p>
+                    <p class="mt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quod omnis, nesciunt dolore, ullam nobis labore.</p>
                 </div>
             </div>
         </div>
         
-       
+        <!-- Secondo paragrafo con l'immagine del Mago + Onda -->
         <img style="display: block;" src="./img/wave.svg" alt="">
         <div class="gray-bg-flex A">
             <div class="big-conteiner">
                 <div class="item pink">
                     <h1>Dove trovarsi è facile</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ex inventore earum? Harum magni quos similique.</p>
+                    <p class="mt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ex inventore earum? Harum magni quos similique.</p>
                 </div>
                 <div class="item blu Mago"></div>
             </div>
         </div>
 
+        <!-- Terzo paragrafo con l'immagine del Genio + Onda ribaltata -->
        <img class="ruota" style="display: block;" src="./img/wave.svg" alt="">
-
         <div class="white-bg-flex">
             <div class="big-conteiner">
                 <div class="item blu Genio"></div>
                 <div class="item pink">
                     <h1>Da pochi a un fandom</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit enim blanditiis amet modi quo obcaecati quidem ex sint labore tempora rerum voluptas.</p>
+                    <p class="mt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit enim blanditiis amet modi quo obcaecati quidem ex sint labore tempora rerum voluptas.</p>
                 </div>
             </div>
         </div>
-
-        <img style="display: block;" src="./img/wave.svg" alt="">
         
+        <!-- Paragrafo con coniglietto e stelline + Onda -->
+        <img style="display: block;" src="./img/wave.svg" alt="">
         <div class="gray-bg-flex B">
             <div class="big-conteiner">
                 <div class="item green">
                     <h1> Tecnologia affidabile per tenersi in contatto</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quidem. Incidunt repellat aliquid cumque voluptate provident.</p>
+                    <p class="mt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quidem. Incidunt repellat aliquid cumque voluptate provident.</p>
                     <div class="coniglio"></div>
                     <div class="stelline"> <h3>Pronto a iniziare la tua avventura?</h3></div>
-                    <div> <span class="bottone azzurro"> <strong>&DownArrow;</strong> Scarica per Mac</span></div>
-                </div>
-                
+                    <div> <a class="bottone azzurro" href=""><strong>&DownArrow;</strong> Scarica per Mac</a></div>
+                </div>   
             </div>
         </div>
+    </main>
 
+    
+    <footer>
         <div class="dark-grey-bg-flex B">
             <div class="big-conteiner">
                 <div class="item coral">
-                    <h2>Il tuo porsto per parlare</h2>
-                    <img style="display: inline-block;" src="./img/ita.png" alt=""> <span>Italiano <strong>V</strong></span>
-                    <div class="social">
-                        <i class="fa-brands fa-facebook"></i>
-
+                    <h2 class="azz mt">Il tuo porsto per parlare</h2>
+                    <div class="lingua mt">
+                        <img src="./img/ita.png" alt=""> 
+                        <span>Italiano</span>
+                        <i class="fa-solid fa-chevron-down"></i>
                     </div>
+                   
+                    <ul class="social mt">
+                        <li><a href=""></a><i class="fa-brands fa-twitter"></i></li>
+                        <li><a href=""></a><i class="fa-brands fa-instagram"></i></li>
+                        <li><a href=""></a><i class="fa-brands fa-facebook"></i></li>
+                        <li><a href=""></a><i class="fa-brands fa-youtube"></i></li>
+                    </ul>
+                   
                 </div>
                 <div class="item verde-strano"></div>
                 <div class="item verde-strano"></div>
                 <div class="item verde-strano"></div>
                 <div class="item verde-strano"></div>
             </div>
-        </div>
-
-    </main>
-
-    <hr>
-    <footer>     
+        </div>    
+        
+        <hr>
 
         <div class="dark-grey-bg-flex A">
             <div class="big-conteiner verde-acqua">
